@@ -202,7 +202,7 @@ span:hover{
     text-decoration: none;
 }
 
-#code-refractor-img {
+.code-refractor-img {
     display: flex;
     justify-content: flex-end;
     height: 500px;
@@ -212,21 +212,12 @@ span:hover{
    
 }
 
-#mini-project-img {
+.mini-project-img, .pre-work-img {
     display: flex;
     justify-content: flex-end;
     height: 400px;
     width: 300px;
     border-radius: 100px;
-    margin-bottom: 100px;
-}
-
-#pre-work-img {
-    display: flex;
-    justify-content: flex-end;
-    height: 400px;
-    width: 300px;
-    border-radius: 120px;
     margin-bottom: 100px;
 }
 
@@ -264,10 +255,14 @@ span:hover{
       flex-direction: column;
   }
 
-#pre-work-img {
+.project {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    width: 100;
 }
+
+
 
 
 
