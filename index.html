@@ -11,20 +11,100 @@
     </head>
 <header>
 <!-- Making a responsive nav bar -->
+<h1>Novia<span> Phan</span></a></h1>
     <nav>
-
         <ul>
-            <li ><a href ="#">Novia<span> Phan</span></a></li>
             <li ><a href="#">Home</a></li>
-            <li ><a href="#">Portfolio</a></li>
             <li ><a href="#">About</a></li>
+            <li ><a href="#">Projects</a></li>
             <li ><a href="#">Contact</a></li>
         </ul>
     </nav>
-
-
 </header>
     <body>
+<!-------Including a hero section----- -->
+<section class="hero">
+    <img src="assets/images/IMG_2469.jpg" alt="Hachioji, Japan. House on the road" class="hero-img"/>
+    <div class="about-title">
+        <img src="assets/images/IMG_2359.jpg" alt="Portrait Novia" class="novia-img">
+        <div class="me">
+        <h2 class="me-h2">About Me</h2>
+        <p class="me-p"> My name is Novia. I'm a recent history graduate from Georgia State University. I am  bilingual in Vietnamese and English. I was fortunate enough to have taught English to university students abroad in Japan before the pandemic. 
+            I love learning about new culutres, trying new foods, and experiencing different changes life offers.
+         </p>
+         </div>
+    </div>
+</section>
+
+<!-- Inputting my main content here  -->
+<main class="content">
+    <section id="about-me" class="about-me">
+        <h2>About Me</h2>
+        <p class="about-me-p"> I was born and raised in Georgia. I was on track to become an English teacher abroad before the pandemic. For a while, it felt like my future was uncertain until I considered becoming a web devoloper. Learning how to code is an invaluable skill in and of itself. Coding provides a range of oppritunities and challenges for devolopers. 
+            I hope to grow my skill set and challenge myself to see how far I can go.
+        </p>
+    </section>
+<!-- Porfolio/Projects Page -->
+    <section id="porfolio" class="portfolio">
+        <h2>Portfolio</h2>
+        <div class="project">
+            <p><a class="subject" href="#">Code Refractor</a></p>
+            <img id="code-refractor-img"src="assets/images/code-refractor.png" alt="tangled ball of code">
+
+            <p><a class="mini-project" href="#">CSS Mini Project</a></p>
+            <img id="mini-project-img" src="assets/images/02-app-tablet.png" alt="Css cheat code">
+
+            <p><a class="pre-work" href="#">Pre Work</a></p>
+            <img id="pre-work-img" src="assets/images/code.jpg" alt="Git pre work">
+        </div>
+    </section>
+
+<!-- Contact page -->
+    <section id ="contact" class="contact">
+        <h2>Contact Me</h2>
+        <div class="container">
+        
+            <p>Fill out the form to contact me:</p>
+
+            <form>
+                <div class="form-group">
+                <label for ="firstname">First Name:</label>
+                <input
+                    type="text"
+                    name="firstname"
+                    class="form-element"
+                    placeholder="Jane"/>
+               
+                 </div>
+
+                <div class="form-group">
+                    <label for ="lastname">Last Name:</label>
+                    <input
+                        type="text"
+                        name="lastname"
+                        class="form-element"
+                        placeholder="Doe"/>
+                   
+                </div>
+
+                <div class="form-group">
+                    <label for ="email">Email address:</label>
+                    <input
+                        type="text"
+                        name="email"
+                        class="form-element"
+                        placeholder="@example.com"/>
+                    </div>
+                
+            </form>
+        </div>
+
+    </section>
+</main>
+
+
+
+
      
       
     </body>
