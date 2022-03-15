@@ -132,9 +132,11 @@ span:hover{
 
 /* About Me Section */
 
-.about-me-p {
-    font-size: 24px;
+.about-me p {
+
+   font-size: 24px;
 }
+
 
 
 /* Syling my main content here */
@@ -255,7 +257,7 @@ span:hover{
       flex-direction: column;
   }
 
-.project {
+.pre-work-img, .mini-project-img, .code-refractor-img {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
