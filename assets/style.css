@@ -170,6 +170,7 @@ span:hover{
 
 .portfolio {
     /* height: 70vh; */
+
 }
 
 .about-me h2, .portfolio h2, .contact h2 {
@@ -195,6 +196,13 @@ span:hover{
     flex-direction: row;
     margin:20px;
     
+}
+
+/* THIS LINEEE right here allowed me to view my images in a row style in desktop view  */
+
+.project.container {
+    display: grid;
+    grid-template-columns:auto
 }
 
 .subject, .mini-project, .pre-work, .future-project{
@@ -265,8 +273,9 @@ span:hover{
     flex-wrap: wrap;
     width: 100%;
 }
-
+/* OMG I FINALLY GOT THIS TO WORK- by adding this line I got the images to be on top of each other */
 .project {
+    display: inline-block;
   
 }
 
