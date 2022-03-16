@@ -16,9 +16,9 @@
     <nav>
         <ul>
             <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#about-me">About</a></li>
+            <li><a href="#porfolio">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 </header>
@@ -27,10 +27,10 @@
     <!-------Including a hero section----- -->
     <section class="hero">
         <img src="assets/images/IMG_2469.jpg" alt="Hachioji, Japan. House on the road" class="hero-img" />
-        <div class="about-title">
+        <div>
             <img src="assets/images/IMG_2359.jpg" alt="Portrait Novia" class="novia-img">
             <div class="me">
-                <h2 class="me-h2">About Me</h2>
+                <h2 class="me-h2">Introduction</h2>
                 <p> My name is Novia. I'm a recent history graduate from Georgia State University. I am
                     bilingual in Vietnamese and English. I was fortunate enough to have taught English to university
                     students abroad in Japan before the pandemic.
@@ -55,15 +55,43 @@
         <!-- Porfolio/Projects Page -->
         <section id="porfolio" class="portfolio">
             <h2>Portfolio</h2>
-            <div class="project">
-                <p><a class="subject" href="#">Code Refractor</a></p>
-                <img class="code-refractor-img" src="./assets/images/Code-refractor.png" alt="Code refractor webpage">
+            <div class="project-container">
 
-                <p><a class="mini-project" href="#">CSS Mini Project</a></p>
-                <img class="mini-project-img" src="assets/images/02-app-tablet.png" alt="Css cheat code">
+                <div class="project">
+                    <a class="subject" href="https://supanov.github.io/01-HTML-CSS-GIT-CodeRefractor/">
+                        <p>Code Refractor</p>
+                        <img class="code-refractor-img" src="./assets/images/Code-refractor.png"
+                            alt="Code refractor webpage">
+                    </a>
+                </div>
 
-                <p><a class="pre-work" href="#">Pre Work</a></p>
-                <img class="pre-work-img" src="assets/images/code.jpg" alt="Git pre work">
+                <div class="project">
+                    <a class="mini-project" href="https://www.google.com/" target="_blank">
+                        <p>CSS Mini Project</p>
+                        <img class="mini-project-img" src="assets/images/02-app-tablet.png" alt="Css cheat code">
+                    </a>
+                </div>
+
+                <div class="project">
+                    <a class="pre-work" href="https://www.google.com/">
+                        <p>Pre Work</p>
+                        <img class="pre-work-img" src="assets/images/code.jpg" alt="Git pre work">
+                    </a>
+                </div>
+
+                <!-- <div class="project">
+                    <a class="future-project" href="https://www.google.com/">
+                        <p>Future Project</p>
+                        <img class="future-project-img" src="assets/images/future coding.jpg" alt="Future Project">
+                    </a>
+                </div>
+
+                <div class="project">
+                    <a class="future-project" href="https://www.google.com/">
+                        <p>Future Project</p>
+                        <img class="future-project-img" src="assets/images/future.jpg" alt="Future Project">
+                    </a>
+                </div> -->
             </div>
         </section>
 
@@ -103,4 +131,3 @@
 </body>
 
 </html>
-

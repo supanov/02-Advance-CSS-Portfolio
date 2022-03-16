@@ -118,6 +118,7 @@ span:hover{
      background-color: #bf764c; 
      border-radius: 120px;
      padding: 20px;
+
  
  }
  
@@ -126,9 +127,8 @@ span:hover{
      padding: 20px;
  }
 
-.about-title {
-    margin: 1%;
-}
+
+
 
 /* About Me Section */
 
@@ -153,7 +153,6 @@ span:hover{
 .about-me, .portfolio, .contact {
     margin-bottom: 20px;
     padding: 50px;
-    height: 300px;
     background-color: #30525b;
     color: beige;
     border-radius: 50px;
@@ -170,7 +169,7 @@ span:hover{
 
 
 .portfolio {
-    height: 70vh;
+    /* height: 70vh; */
 }
 
 .about-me h2, .portfolio h2, .contact h2 {
@@ -191,14 +190,14 @@ span:hover{
 
 
 .project{
-    width: 50%;
+    /* width: 50%; */
     display: flex;
     flex-direction: row;
     margin:20px;
     
 }
 
-.subject, .mini-project, .pre-work{
+.subject, .mini-project, .pre-work, .future-project{
     font-size: 24px;
     color: beige;
     text-decoration: none;
@@ -210,17 +209,20 @@ span:hover{
     height: 500px;
     width: 400px;
     border-radius: 120px;
-    margin-bottom: 100px;
+   
    
 }
 
-.mini-project-img, .pre-work-img {
+.mini-project-img, .pre-work-img, .future-project-img {
     display: flex;
     justify-content: flex-end;
     height: 400px;
     width: 300px;
     border-radius: 100px;
-    margin-bottom: 100px;
+    padding: 20px;
+    transform: scale(1.0);
+    
+    
 }
 
 
@@ -261,7 +263,11 @@ span:hover{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 100;
+    width: 100%;
+}
+
+.project {
+  
 }
 
 
